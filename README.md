@@ -29,4 +29,16 @@
    npm start
    ```
 
+### Login Page
+
 ![Example Image](./images/Login.png)
+
+### Register Page
+
+![Example Image](./images/Register.png)
+
+### Home Page
+
+U need to choice Elazığ => Malatya because for now we only have some data :)
+u can choice any date for now u wıll find result we not control date
+![Example Image](./images/HomePage.png)
