@@ -10,6 +10,7 @@ import {
 import React, { useLayoutEffect, useState } from "react";
 import { useRoute } from "@react-navigation/native";
 import { useNavigation } from "@react-navigation/native";
+import { styles } from "./styles/DetailScreen.styles";
 let selectedSeats = [];
 const DetailScreen = () => {
   const route = useRoute();
@@ -408,27 +409,3 @@ const DetailScreen = () => {
 };
 
 export default DetailScreen;
-
-const styles = StyleSheet.create({
-  headerTitleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  headerTitle: {
-    marginLeft: 8,
-    fontSize: 18,
-    fontWeight: "bold",
-    color: "white",
-  },
-  title: {
-    fontSize: 18,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  Image: {
-    width: 65,
-    height: 35,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

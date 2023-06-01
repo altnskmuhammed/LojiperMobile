@@ -1,21 +1,21 @@
 import { StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
-import HomeScreen from "./Screens/HomeScreen";
+import HomeScreen from "../Screens/HomeScreen";
 import { AntDesign } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
-import SavedScreen from "./Screens/SavedScreen";
-import ProfileScreen from "./Screens/ProfileScreen";
+import SavedScreen from "../Screens/SavedScreen";
+import ProfileScreen from "../Screens/ProfileScreen";
 import { Ionicons } from "@expo/vector-icons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ChoosExpedition from "./Screens/ChoosExpedition";
-import DetailScreen from "./Screens/DetailScreen";
-import SignIn from "./Screens/SignIn";
-import SignUp from "./Screens/SignUp";
+import ChoosExpedition from "../Screens/ChoosExpedition";
+import DetailScreen from "../Screens/DetailScreen";
+import SignIn from "../Screens/SignIn";
+import SignUp from "../Screens/SignUp";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
-import PaymentScreen from "./Screens/PaymentScreen";
+import PaymentScreen from "../Screens/PaymentScreen";
 
 const StackNavigator = () => {
   const Tab = createBottomTabNavigator();
